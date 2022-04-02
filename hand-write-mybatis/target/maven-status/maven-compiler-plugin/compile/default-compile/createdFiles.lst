@@ -1,0 +1,17 @@
+org\apache\ibatis\executor\SimpleExecutor.class
+com\xhc\mapper\UserMapper.class
+org\apache\ibatis\session\SqlSessionFactory.class
+org\apache\ibatis\configuration\XmlMapperBuilder.class
+org\apache\ibatis\configuration\BoundSql.class
+org\apache\ibatis\executor\Executor.class
+org\apache\ibatis\session\DefaultSqlSession.class
+org\apache\ibatis\session\DefaultSqlSessionFactory.class
+org\apache\ibatis\configuration\Configuration.class
+org\apache\ibatis\configuration\CommandType.class
+org\apache\ibatis\configuration\MappedStatement.class
+org\apache\ibatis\session\DefaultSqlSession$1.class
+org\apache\ibatis\session\SqlSessionFactoryBuilder.class
+org\apache\ibatis\configuration\XmlConfigBuilder.class
+org\apache\ibatis\session\SqlSession.class
+com\xhc\pojo\User.class
+org\apache\ibatis\io\Resources.class

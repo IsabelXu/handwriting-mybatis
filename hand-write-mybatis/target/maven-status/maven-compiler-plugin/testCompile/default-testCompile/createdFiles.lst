@@ -1,0 +1,8 @@
+com\xhc\dao\UserDao.class
+com\xhc\test\TestBook.class
+com\xhc\test\TestJdbc.class
+com\xhc\test\TestMyBatis.class
+com\xhc\dao\MyInvocationHandler.class
+com\xhc\dao\TestUserDao.class
+com\xhc\test\TestXmlConfigBuilder.class
+com\xhc\test\TestMpper.class

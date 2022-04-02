@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--上面这一句是xml文件的一种规范-->
+<!--放在resources下面是为了测试，一般测试的放在test中-->
+<books>
+    <book id="b1">
+        <name>三国演义</name>
+        <price>56.8</price>
+        <publish>人民教育出版社</publish>
+    </book>
+    <book id="b2">
+        <name>西游记</name>
+        <price>51.8</price>
+        <publish>邮电出版社</publish>
+    </book>
+    <book id="b3">
+        <name>水浒传</name>
+        <price>52.8</price>
+        <publish>邮电出版社</publish>
+    </book>
+</books>

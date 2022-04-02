@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="com.xhc.mapper.UserMapper">
+
+    <!--查询
+        parameterType="" 输入参数类型
+        resultType="com.xhc.pojo.User" 返回参数类型
+    -->
+    <select id="list" resultType="com.xhc.pojo.User">
+        select * from user
+    </select>
+
+    <select id="findById" resultType="com.xhc.pojo.User" parameterType="com.xhc.pojo.User">
+        select * from user where id=#{id}
+    </select>
+
+    <!-- 根据前面的标签区分是执行update还是select而不是UserMapper中的返回值-->
+    <insert id="add" resultType="java.lang.Integer" parameterType="com.xhc.pojo.User">
+        insert into user values (null,#{username})
+    </insert>
+
+    <update id="updateUser"  resultType="java.lang.Integer"  parameterType="com.xhc.pojo.User">
+        update user set username=#{username} where id=#{id}
+    </update>
+
+    <delete id="delete" resultType="java.lang.Integer"  parameterType="com.xhc.pojo.User">
+        delete from user where id=#{id}
+    </delete>
+
+    <delete id="deleteUserById" resultType="java.lang.Integer" parameterType="java.lang.Integer">
+        delete from user where id=#{id}
+    </delete>
+
+</mapper>

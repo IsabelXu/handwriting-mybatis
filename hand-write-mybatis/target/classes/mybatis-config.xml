@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!--1.数据库配置信息-->
+    <dataSource>
+        <!--数据库的驱动地址-->
+        <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
+        <!--数据库连接字符串-->
+        <!--&会报错，amp是转义符-->
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/hand-write-mybatis?useSSL=false&amp;serverTimezone=UTC&amp;characterEncoding=UTF-8"></property>
+        <!--账号-->
+        <property name="username" value="root"></property>
+        <!--密码-->
+        <property name="password" value="1234"></property>
+    </dataSource>
+
+    <!--2.存放mapper.xml的全路径-->
+    <mapper resource="mappers/UserMapper.xml"></mapper>
+    <!--两个问题1如何解析xml文件；2解析xml的工具-->
+
+</configuration>
